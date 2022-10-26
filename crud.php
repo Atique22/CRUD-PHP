@@ -104,7 +104,7 @@ if (isset($_POST['update'])) {
         <form action="crud.php" method="post">
             <div class="relative mb-4">
               <label for="rid" class="leading-7 text-sm text-gray-600">Reg. ID</label>
-              <input type="text" id="rid" name="rid" value="<?php echo $RegID; ?>" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <input type="text" id="rid" name="rid" value="<?php echo $RegID; ?>" readonly class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
             <div class="relative mb-4">
               <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
